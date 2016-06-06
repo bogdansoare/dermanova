@@ -1,23 +1,53 @@
 ---
 layout: default
+title: Acasa
 ---
 
-<div class="home">
+<div class="hero">
+  <h2 class="hero-text">Frumusețe<br> fără durere</h2>
+  <img src="{{ site.baseurl }}/images/hero-small.jpg"
+       srcset="{{ site.baseurl }}/images/hero-medium.jpg 620w, {{ site.baseurl }}/images/hero-small.jpg 400w"
+       class="hero-img"/>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
+<div class="container">
+  <p class="m-b-lg">
+    Clinica de dermato-cosmetologie Dermanova, în care prioritatea o reprezintă
+    atât calitatea actului medical cât şi relația medic–pacient, bazată pe
+    încredere şi confidențialitate, pune la dispoziția dumneavoastră servicii
+    medicale la cele mai înalte standarde.
+  </p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
+  <section class="m-b-lg">
+    <h2 class="text-center">Dr. Wissam Taleb</h2>
+    <img src="{{ site.baseurl }}/images/wissam-small.jpg"
+         srcset="{{ site.baseurl }}/images/wissam-medium.jpg 600w, {{ site.baseurl }}/images/wissam-small.jpg 300w"
+         class="avatar avatar--doctor"/>
+    <h4 class="subheading text-center">Medic primar dermato-venerologie</h4>
+  </section>
+
+  <section class="testimonials">
+    <ul class="testimonials-list">
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <blockquote>
+          <p>
+            &ldquo;Cu ajutorul Dermanova am scăpat de o problemă gravă la nivelul pielii&rdquo;
+          </p>
+          <footer>Georgiana Rotaru, 30 de ani</footer>
+        </blockquote>
       </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+      <li>
+        <blockquote>
+          <p>
+            &ldquo;Domnul doctor Wissam m-a vindecat rapid şi eficient de unghia încarnată&rdquo;
+          </p>
+          <footer>Alex Dumitru, 28 de ani</footer>
+        </blockquote>
+      </li>
+    </ul>
+    <p>
+      Alăturați-vă şi dumneavoasra sutelor de pacienți mulțumiți de serviciile
+      clinicii noastre.
+    </p>
+  </section>
 </div>

@@ -1,0 +1,16 @@
+// Footer
+//
+
+.footer {
+  margin-bottom: 2rem;
+}
+
+.footer-phone {
+  margin-right: 0.5rem;
+}
+
+.footer-mail {
+  @media (min-width: 22em) {
+    float: right;
+  }
+}
