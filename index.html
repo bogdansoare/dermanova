@@ -1,13 +1,22 @@
 ---
 layout: default
-title: Acasa
 ---
 
 <div class="hero">
   <h2 class="hero-text">Frumusețe<br> fără durere</h2>
-  <img src="{{ site.baseurl }}/images/hero-small.jpg"
-       srcset="{{ site.baseurl }}/images/hero-medium.jpg 620w, {{ site.baseurl }}/images/hero-small.jpg 400w"
-       class="hero-img"/>
+  <img
+    sizes="(max-width: 1920px) 100vw, 1920px"
+    srcset="
+    {{ site.baseurl }}/images/hero_mxtem3_c_scale,w_320.jpg 320w,
+    {{ site.baseurl }}/images/hero_mxtem3_c_scale,w_673.jpg 673w,
+    {{ site.baseurl }}/images/hero_mxtem3_c_scale,w_946.jpg 946w,
+    {{ site.baseurl }}/images/hero_mxtem3_c_scale,w_1183.jpg 1183w,
+    {{ site.baseurl }}/images/hero_mxtem3_c_scale,w_1392.jpg 1392w,
+    {{ site.baseurl }}/images/hero_mxtem3_c_scale,w_1572.jpg 1572w,
+    {{ site.baseurl }}/images/hero_mxtem3_c_scale,w_1752.jpg 1752w,
+    {{ site.baseurl }}/images/hero_mxtem3_c_scale,w_1920.jpg 1920w"
+    src="{{ site.baseurl }}/images/hero_mxtem3_c_scale,w_1920.jpg"
+    class="hero-img">
 </div>
 
 <div class="container">
