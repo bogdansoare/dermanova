@@ -1,8 +1,6 @@
 <div class="container">
   <header class="masthead">
-    <h2 class="masthead-title">
-      <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </h2>
+    <a href="{{ site.baseurl }}/" class="masthead-title">{{ site.title }}</a>
 
     <ul class="masthead-nav">
       {% assign pages_list = site.pages | sort:"url" | reverse %}

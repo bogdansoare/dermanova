@@ -1,59 +1,56 @@
 // Masthead
-//
-// Super small header above the content for site name and short description.
 
 .masthead {
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
 
   @include mq($from: tablet) {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
 .masthead-title {
-  margin-top: 0;
-  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-
-  a {
-    color: $dark-gray;
-  }
-
-  @include mq($from: tablet) {
-    margin-bottom: 0;
-  }
+  color: $dark-gray;
 }
 
 .masthead-nav {
   padding-left: 0;
   margin-bottom: 0;
-  text-align: center;
   list-style: none;
 
   > li {
     display: inline-block;
 
     > a {
+      display: inline-block;
       color: $light-gray;
+      padding: 0.25rem;
 
       &:hover {
         color: $dark-gray;
       }
-    }
-
-    & + li {
-      margin-left: .5rem;
 
       @include mq($from: 22em) {
-        margin-left: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
       }
 
       @include mq($from: tablet) {
-        margin-left: 1.5rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
       }
     }
 
