@@ -12,3 +12,6 @@ url: "https://bogdansoare.github.io" # the base hostname & protocol for your sit
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - octopress-autoprefixer

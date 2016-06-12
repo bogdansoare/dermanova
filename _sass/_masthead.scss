@@ -5,6 +5,12 @@
 .masthead {
   margin-top: 1rem;
   margin-bottom: 2rem;
+
+  @include mq($from: tablet) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .masthead-title {
@@ -15,6 +21,10 @@
 
   a {
     color: $dark-gray;
+  }
+
+  @include mq($from: tablet) {
+    margin-bottom: 0;
   }
 }
 
