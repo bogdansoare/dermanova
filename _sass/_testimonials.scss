@@ -7,3 +7,31 @@
     margin-bottom: 1rem;
   }
 }
+
+.testimonials-quote {
+  margin: 0;
+  text-align: center;
+
+  p {
+    font-style: italic;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+  }
+
+  footer {
+    color: $light-gray;
+  }
+}
+
+.testimonials-avatar {
+  display: inline-block;
+  vertical-align: middle;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+.testimonials-name {
+  display: inline-block;
+  vertical-align: middle;
+}
