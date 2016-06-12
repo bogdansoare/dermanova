@@ -15,6 +15,8 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-autoprefixer (1.0.0)
+      autoprefixer-rails (~> 6.3.6)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
     jekyll-watch (1.4.0)
@@ -25,9 +27,6 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    octopress-autoprefixer (2.0.0)
-      autoprefixer-rails
-      jekyll (~> 3.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -39,7 +38,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  octopress-autoprefixer
+  jekyll
+  jekyll-autoprefixer
 
 BUNDLED WITH
    1.10.5

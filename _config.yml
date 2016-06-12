@@ -14,4 +14,4 @@ url: "https://bogdansoare.github.io" # the base hostname & protocol for your sit
 markdown: kramdown
 
 gems:
-  - octopress-autoprefixer
+- jekyll-autoprefixer
