@@ -5,7 +5,7 @@
   margin-bottom: 1rem;
   text-align: center;
 
-  @include mq($from: tablet) {
+  @include mq($from: medium) {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -43,12 +43,12 @@
         color: $dark-gray;
       }
 
-      @include mq($from: 22em) {
+      @include mq($from: small) {
         padding-left: 0.5rem;
         padding-right: 0.5rem;
       }
 
-      @include mq($from: tablet) {
+      @include mq($from: medium) {
         padding-left: 0.75rem;
         padding-right: 0.75rem;
       }

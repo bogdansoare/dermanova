@@ -8,8 +8,9 @@ $text-color: #515151;
 $accent-color: #268bd2;
 
 $mq-breakpoints: (
-  mobile:  320px,
-  tablet:  680px,
-  desktop: 980px,
-  wide:    1300px
+  xsmall: 320px,
+  small: 360px,
+  medium: 680px,
+  large: 980px,
+  xlarge: 1300px
 );

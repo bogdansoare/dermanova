@@ -10,7 +10,7 @@
 }
 
 .footer-mail {
-  @media (min-width: 22em) {
+  @include mq($from: small) {
     float: right;
   }
 }

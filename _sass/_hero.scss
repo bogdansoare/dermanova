@@ -29,4 +29,8 @@
   font-weight: 300;
   letter-spacing: 0.025em;
   color: #fff;
+
+  @include mq($from: small) {
+    font-size: 1.75rem;
+  }
 }
