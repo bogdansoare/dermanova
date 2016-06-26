@@ -1,0 +1,26 @@
+- name: Consult
+  value: 100 RON
+
+- name: Dermatoscopie
+  value: 50 RON / sedinta
+
+- name: Peeling chimic mediu TCA
+  value: 250 RON / sedinta
+
+- name: Tratarea unghiei incarnate prin avulsie partiala cu fenolizare
+  value: 150 RON
+
+- name: Avulsie totala
+  value: 150 RON
+
+- name: Laser CO2 condiloame acuminate
+  value: 100 RON / leziune
+
+- name: Laser CO2 veruci
+  value: 100 RON / leziune
+
+- name: Incizie furuncul/chist sebaceu
+  value: 100 RON
+
+- name: Infiltratie intralezionala pelada, cicatrici keloide
+  value: 100 RON

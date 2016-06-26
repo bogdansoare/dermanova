@@ -4,4 +4,28 @@ title: Prețuri
 permalink: /preturi
 ---
 
-<a href="#">bzzz</a>
+<div class="container">
+  <section>
+    <h3 class="prices-heading">Tratamente</h3>
+    <ul class="prices-list">
+      {% for price in site.data.prices-treatment %}
+        <li class="prices-item">
+          <span class="prices-name">{{ price.name }}</span>
+          <span class="prices-value">{{ price.value }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+  <hr>
+  <section>
+    <h3 class="prices-heading">Epilare definitiva</h3>
+    <ul class="prices-list">
+      {% for price in site.data.prices-waxing %}
+        <li class="prices-item">
+          <span class="prices-name">{{ price.name }}</span>
+          <span class="prices-value">{{ price.value }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>

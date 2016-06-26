@@ -1,8 +1,9 @@
 .services-list {
   padding: 0;
+  list-style: none;
 }
 
-.services-list-item {
+.services-item {
   margin-bottom: 2rem;
 }
 
@@ -11,6 +12,6 @@
   margin-bottom: 0;
 }
 
-.services-inside-list-item {
+.services-inside-item {
   margin-bottom: 1rem;
 }

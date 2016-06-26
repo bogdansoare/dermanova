@@ -1,0 +1,29 @@
+- name: Axilar
+  value: 100 RON / sedinta
+
+- name: Mustata
+  value: 50 RON / sedinta
+
+- name: Perciuni
+  value: 50 RON / sedinta
+
+- name: Barbie
+  value: 60 RON / sedinta
+
+- name: Inghinal total
+  value: 200 RON / sedinta
+
+- name: Inghinal bikini
+  value: 120 RON / sedinta
+
+- name: Gambe
+  value: 500 RON / sedinta
+
+- name: Picioare integral
+  value: 800 RON / sedinta
+
+- name: Spate
+  value: 500 RON / sedinta
+
+- name: Torace anterior+abdomen
+  value: 500 RON / sedinta
