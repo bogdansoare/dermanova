@@ -36,14 +36,6 @@ ul, ol, dl {
   margin-bottom: 1rem;
 }
 
-dt {
-  font-weight: bold;
-}
-
-dd {
-  margin-bottom: .5rem;
-}
-
 hr {
   width: 100px;
   height: 1px;
@@ -58,8 +50,12 @@ hr {
 // Extend paragraphs with `.lead` for larger introductory text.
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 300;
+
+  @include mq($from: small) {
+    font-size: 1.25rem;
+  }
 }
 
 .subheading {

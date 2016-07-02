@@ -6,9 +6,13 @@
 
 .google-map {
   position: relative;
-  padding-bottom: 75%;
+  padding-bottom: 85%;
   height: 0;
   overflow: hidden;
+
+  @include mq($from: medium) {
+    padding-bottom: 75%;
+  }
 
   iframe {
     position: absolute;
