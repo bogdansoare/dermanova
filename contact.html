@@ -10,20 +10,20 @@ permalink: /contact
     <p>
       Va rugam sa nu ezitati a ne contacta pentru orice informatii suplimentare sau in vederea stabilirii unei intalniri.
     </p>
-    <form action="" method="POST" class="m-b">
+    <form action="https://formspree.io/contact@dermanova.ro" method="POST" class="m-b">
       <fieldset class="form-group">
         <label for="name">Nume</label>
-        <input type="text" name="name" id="name" class="form-field">
+        <input type="text" name="name" id="name" class="form-field" required>
       </fieldset>
 
       <fieldset class="form-group">
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" class="form-field">
+        <input type="email" name="email" id="email" class="form-field" required>
       </fieldset>
 
       <fieldset class="form-group">
         <label for="message">Mesaj</label>
-        <textarea name="message" id="message" class="form-field"></textarea>
+        <textarea name="message" id="message" class="form-field" required></textarea>
       </fieldset>
 
       <button type="submit" class="btn btn-primary">Trimite</button>
