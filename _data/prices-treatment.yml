@@ -1,5 +1,8 @@
 - name: Consult
-  value: 100 RON
+  value: 140 RON
+
+- name: Control
+  value: 80 RON
 
 - name: Dermatoscopie
   value: 50 RON / sedinta
